@@ -1,0 +1,17 @@
+name: Update use pins with pinact
+
+on:
+  schedule:
+    - cron: "0 16 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  call-pinact:
+    permissions:
+      contents: write # for branch creation
+      pull-requests: write # for pull request creation
+    uses: ./.github/workflows/pinact-reusable.yml
+    secrets:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
