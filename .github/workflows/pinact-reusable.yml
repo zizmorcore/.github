@@ -3,8 +3,8 @@ name: Update use pins with pinact (reusable)
 on:
   workflow_call:
     inputs:
-      inputs:
-        description: 'Space-separated input paths for pinact'
+      extra-inputs:
+        description: 'Additional space-separated input paths for pinact'
         required: false
         default: ""
         type: string
@@ -41,13 +41,13 @@ jobs:
 
       - name: run pinact
         run: |
-          if [ -z "${PINACT_INPUTS}" ]; then
-            pinact run --update
-          else
-            pinact run --update "${PINACT_INPUTS}"
+          pinact run --update
+
+          if [ -n "${PINACT_EXTRA_INPUTS}" ]; then
+            pinact run --update "${PINACT_EXTRA_INPUTS}"
           fi
         env:
-          PINACT_INPUTS: ${{ inputs.inputs }}
+          PINACT_EXTRA_INPUTS: ${{ inputs.extra-inputs }}
 
       - name: create PR
         uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
