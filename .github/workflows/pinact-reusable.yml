@@ -19,7 +19,7 @@ on:
         default: "woodruffw"
         type: string
     secrets:
-      GITHUB_TOKEN:
+      GH_TOKEN:
         description: 'The GitHub token to use'
         required: true
 
@@ -68,3 +68,4 @@ jobs:
             [`pinact`]: https://github.com/suzuki-shunsuke/pinact
           assignees: ${{ inputs.reviewers }}
           reviewers: ${{ inputs.reviewers }}
+          token: ${{ secrets.GH_TOKEN }}
