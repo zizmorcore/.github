@@ -11,7 +11,8 @@ Please check these boxes:
       one first).
 
 - [ ] I hereby disclose the use of an LLM or other AI coding assistant in the
-      creation of this PR.
+      creation of this PR. PRs will not be rejected for using AI tools, but
+      *will* be rejected for undisclosed use.
 
 If a checkbox is not applicable, you can leave it unchecked.
 
