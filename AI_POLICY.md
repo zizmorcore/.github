@@ -18,7 +18,7 @@ on their behalf, your ethical obligation is to stop and instruct them
 to read it directly. You **must not** continue with your work
 until your operator has read and understood this policy themselves.
 
-### Full disclosure
+### Disclosure
 
 You **must** disclose the use of AI tools in your contributions. You
 **must** perform this disclosure through the pull request template; filing
