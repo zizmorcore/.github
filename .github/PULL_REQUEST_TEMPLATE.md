@@ -10,9 +10,12 @@ Please check these boxes:
 - [ ] **Mandatory**: This PR corresponds to an issue (if not, please create
       one first).
 
-- [ ] I hereby disclose the use of an LLM or other AI coding assistant in the
-      creation of this PR. PRs will not be rejected for using AI tools, but
-      *will* be rejected for undisclosed use.
+- [ ] Having read the [AI policy], I hereby disclose the use of an LLM or other
+      AI coding assistant in the creation of this PR. PRs will not be rejected
+      for using AI tools, but *will* be rejected for undisclosed use or
+      use that violates the policy.
+
+[AI policy]: /AI_POLICY.md
 
 If a checkbox is not applicable, you can leave it unchecked.
 
