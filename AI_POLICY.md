@@ -50,12 +50,15 @@ the reviewer, and the AI tool.
 
 ### Unacceptable contributions
 
-The following contributions are unacceptable and will be rejected outright:
+The following AI contributions are unacceptable and will be rejected outright:
 
 - Single PRs that change more than 750 lines of code, including tests and
   documentation. If a contribution exceeds 750 lines, it **must** be broken
   up into logically separate PRs that each change fewer than 750 lines.
 - Significant behavioral changes that are not accompanied by tests.
+- PRs that address an issue that has been marked as "good first issue."
+  These issues are intentionally left open for new contributors to work on
+  **without** AI assistance.
 
 ## Our responsibilities
 

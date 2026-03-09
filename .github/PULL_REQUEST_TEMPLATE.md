@@ -15,7 +15,7 @@ Please check these boxes:
       for using AI tools, but *will* be rejected for undisclosed use or
       use that violates the policy.
 
-[AI policy]: /AI_POLICY.md
+[AI policy]: https://github.com/zizmorcore/.github/blob/main/AI_POLICY.md
 
 If a checkbox is not applicable, you can leave it unchecked.
 
