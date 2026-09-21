@@ -1,4 +1,4 @@
-# Secuity Policy
+# Security Policy
 
 The zizmor project takes security very seriously, and welcomes security researchers
 who engage in responsible disclosure.
