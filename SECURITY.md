@@ -13,7 +13,7 @@ including [zizmor itself](https://github.com/zizmorcore/zizmor) and all integrat
 
 ## Your responsibilities
 
-First and formost, you **must** comply with our [AI policy](./AI_POLICy.md).
+First and foremost, you **must** comply with our [AI policy](./AI_POLICY.md).
 
 Reporting AI discovered vulnerabilities is encouraged, but you **must** be able
 to explain the vulnerability report in your own words.
