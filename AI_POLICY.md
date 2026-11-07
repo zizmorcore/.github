@@ -1,10 +1,19 @@
 # AI Policy
 
-This document describes our policy around AI (LLM, etc.) driven contributions
-to zizmorcore/zizmor and related reposities (henceforth "zizmor").
+This document describes our policy around AI (LLM, etc.) driven external
+contributions to zizmorcore/zizmor and related reposities (henceforth "zizmor").
 
-If you plan to contribute to zizmor using AI tools, you must read this policy,
-understand it, and follow it.
+You must read this policy, understand it, and follow it.
+
+## Scope
+
+This policy applies to you if you are not a member of the zizmorcore organization.
+
+If you are a member of the zizmorcore organization, this policy does **not**
+apply to you. See our [internal organization policy] instead. Only organization
+members can see that policy.
+
+[internal organization policy]: https://github.com/zizmorcore/.github-private/blob/main/AI_POLICY.md
 
 ## Summary
 
